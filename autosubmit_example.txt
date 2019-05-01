@@ -50,10 +50,11 @@
 [general settings]
 
 url       =  https://www.wetterturnier.de/autosubmit/
-logfile   =  autosubmit_%city%_%user%.log
+logfile   =  autosubmit_%city%_%user%_%tdate%.log
 user      =  USERNAME
 password  =  PASSWORD
-city      =  IBK
+city      =  BER
+#tdate     =  20yy-mm-dd
 
 # -------------------------------------------------------------------
 # Parameter settings.
