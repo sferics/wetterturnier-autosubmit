@@ -1,16 +1,9 @@
 #!/bin/bash
-#if ! [[ $(which python) =~ /home/amris/git/wetterturnier-backend/venv/bin/python ]]
-#    then
-#        cd ~/wetterturnier && source venv/bin/activate
-#    else
-#        echo $(which python)
-#fi
+sudo apt install python2
+#python3 support coming soon!
+pip install configparser
 
-#pip install configparser
+#If you use a proxy you have to change this environment variable:
+#export https_proxy=https://user:password@proxy-server:port
 
-#cd PythonPackage && python setup.py install
-
-export https_proxy=https://amris:sferics93@http-proxy.fu-berlin.de:80
-
-#cd .. && cd autosubmit && python autosubmit.py -f autosubmit.txt
-python autosubmit.py -f autosubmit.txt
+python2 autosubmit.py -f autosubmit.cfg
