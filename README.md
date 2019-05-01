@@ -8,6 +8,7 @@ A lot of stuff can go wrong with the URL's as they are not as easy to read at al
 # -----------------------------------------------
 # General
 # -----------------------------------------------
+
 [general settings]
 
 url       =  https://www.wetterturnier.de/autosubmit/
@@ -20,6 +21,7 @@ city      =  IBK
 # -----------------------------------------------
 # Parameter settings.
 # -----------------------------------------------
+
 [parameters]
 RR_1  =         3.2
 RR_2  =         2.4
@@ -49,10 +51,13 @@ AUTOSUBMIT ERRORCODE 15
 What if my script sends more data than expected?
 Well, that's no problem at all. The idea is that the wetterturnier takes what it needs. if you are delivering more data or more forecast days these days will be dropped. This gives you a note, but the necessary forecast values will be stored.
 
-Additional parameter:  IGNORED PARAMETERS
-  ------------------
+Additional parameter:
+IGNORED PARAMETERS
+------------------
   Ignored: day_1 ZZ: Forecast parameter ZZ for day 1 ignored. This was not requested for this city.  Everything fine. This is just a note that you are sending more data than necessary.
   Ignored: day_2 YY: Forecast parameter YY for day 2 ignored. This was not requested for this city.  Everything fine. This is just a note that you are sending more data than necessary.
-  Additional day:  IGNORED PARAMETERS
-  ------------------
+
+Additional day:
+IGNORED PARAMETERS
+------------------
   Ignored: day_3: Forecasts for day 3 ignored. They were not requested. Everything fine. This is just a note that you are sending more data than necessary.
