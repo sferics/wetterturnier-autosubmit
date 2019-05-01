@@ -247,18 +247,6 @@ if __name__ == "__main__":
          if type(code) == type(int()) and code != 0:
             print "\n[!] Wetterturnier server-side script returned exit code %d" % code
             print "    Everything != 0 is an error. Check the logfile."
-            print "    : Exit python with return codde %d as well:" % code
+            print "    : Exit python with return code %d as well:" % code
             sys.exit(code)
-
-
-
-
-
-
-
-
-
-
-
-
 
