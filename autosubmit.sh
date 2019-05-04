@@ -1,5 +1,7 @@
 #!/bin/bash
-sudo apt install python2
+#only for debian/ubuntu systems
+sudo apt install python2.7
+
 #python3 support coming soon!
 pip install configparser
 
