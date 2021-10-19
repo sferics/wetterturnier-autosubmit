@@ -1,8 +1,8 @@
 # -------------------------------------------------------------------
 # - NAME:        autosubmit.py
 # - AUTHOR:      Reto Stauffer / sferics
-# - DATE:        2019-04-30
-# - VERSION:     0.2-1
+# - DATE:        2021-10-02
+# - VERSION:     0.3
 # - LICENSE: GPL-3, Reto Stauffer, copyright 2014
 # -------------------------------------------------------------------
 # - DESCRIPTION: Helper script to give the users the option to
