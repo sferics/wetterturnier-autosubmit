@@ -54,8 +54,8 @@
 #url       =  https://www.wetterturnier.de/autosubmit/
 url       = http://85.214.230.47/autosubmit/
 logfile   =  autosubmit_%%city%%_%%user%%_%%tdate%%.log
-user      = WB-Berlin
-password  = cippool
+user      = USERNAME
+password  = PASWORD
 city      =  BER
 #tdate     =  2022-08-12
 
