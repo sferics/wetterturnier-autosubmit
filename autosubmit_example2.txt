@@ -47,17 +47,15 @@
 #         for Innsbruck:       Innsbruck    or    IBK
 #         for Leipzig:         Leipzig      or    LEI
 # -------------------------------------------------------------------
-
-
 [general settings]
 
 #url       =  https://www.wetterturnier.de/autosubmit/
-url       = http://85.214.230.47/autosubmit/
-logfile   =  autosubmit_%%city%%_%%user%%_%%tdate%%.log
-user      = WB-Berlin
-password  = cippool
+url       =  http://85.214.230.47/autosubmit/
+logfile   =  autosubmit_%city%_%user%_%tdate%.log
+user      =  USERNAME
+password  =  PASSWORD
 city      =  BER
-#tdate     =  2022-08-12
+#tdate     =  20yy-mm-dd
 
 # -------------------------------------------------------------------
 # Parameter settings.
@@ -81,8 +79,6 @@ city      =  BER
 # - TTd        Dewpoint temperature 12 UTC
 # - RR         Amount of precipitation (24h, 18-18 UTC)
 # -------------------------------------------------------------------
-
-
 [parameters]
 
 #Sat
@@ -112,6 +108,7 @@ Tmax_2      =      14.5
 Td12_2      =      12.4
 RR1_2       =       0.5
 RR24_2      =       1.2
+
 
 # .... note that this is just an example. To place a propper bet
 #      you have to fill in ALL required parameters (required by
