@@ -51,11 +51,10 @@
 
 [general settings]
 
-#url       =  https://www.wetterturnier.de/autosubmit/
-url       = http://85.214.230.47/autosubmit/
+url       =  https://wetterturnier.de/autosubmit/
 logfile   =  autosubmit_%%city%%_%%user%%_%%tdate%%.log
-user      = USERNAME
-password  = PASWORD
+user      =  USERNAME
+password  =  PASWORD
 city      =  BER
 #tdate     =  2022-08-12
 
